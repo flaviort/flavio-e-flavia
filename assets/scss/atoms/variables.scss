@@ -1,0 +1,36 @@
+// breakpoints
+$mq-sm-min: "only screen and (min-width: 640px)";
+$mq-md-min: "only screen and (min-width: 768px)";
+$mq-lg-min: "only screen and (min-width: 1024px)";
+$mq-xl-min: "only screen and (min-width: 1280px)";
+$mq-2xl-min: "only screen and (min-width: 1536px)";
+
+// font families
+$quorga: 'Quorga', sans-serif;
+$finlandica: 'Finlandica', sans-serif;
+
+// font weights
+$light: 				300;
+$regular: 				400;
+$medium: 				500;
+$semi-bold: 			600;
+$bold: 					700;
+$extra-bold: 			800;
+$heavy: 				900;
+
+// colors
+$black:					#000;
+$gray-darker:			#272727;
+$gray-dark:				#333;
+$gray-medium:			#666;
+$gray-light:			#9f9f9f;
+$gray-lighter:			#bbb;
+$gray-lightest:			#e8e8e8;
+$almost-white:			#f5f5f5;
+$white:					#fff;
+
+$mauve:					#871f5f;
+$mauve-dark:			#610e41;
+
+$red:					#ff0000;
+$red-dark:			    #ad171b;

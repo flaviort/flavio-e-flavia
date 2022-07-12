@@ -9,27 +9,6 @@ wow = new WOW({
 	live: true
 }).init();
 
-// transform imgs with the class svg in inline svgs
-function replaceSvg() {
-	jQuery('img.svg').each(function(){
-		var $img = jQuery(this);
-		var imgID = $img.attr('id');
-		var imgClass = $img.attr('class');
-		var imgURL = $img.attr('src');
-		jQuery.get(imgURL, function(data) {
-			var $svg = jQuery(data).find('svg');
-			if(typeof imgID !== 'undefined') {
-				$svg = $svg.attr('id', imgID);
-			}
-			if(typeof imgClass !== 'undefined') {
-				$svg = $svg.attr('class', imgClass+' replaced-svg');
-			}
-			$svg = $svg.removeAttr('xmlns:a');
-			$img.replaceWith($svg);
-		}, 'xml');
-	});
-};
-
 // smooth scroll
 $(".sliding-link").click(function(e) {
 	e.preventDefault();
@@ -40,9 +19,6 @@ $(".sliding-link").click(function(e) {
 // doc ready functions
 $(document).ready(function() {
 	
-	// replace imgs to svgs
-	replaceSvg()
-	setTimeout(function(){ replaceSvg(); }, 200)
-	setTimeout(function(){ replaceSvg(); }, 1000)
+	
 
 });

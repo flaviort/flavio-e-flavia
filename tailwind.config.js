@@ -1,18 +1,11 @@
 // tailwind.config.js
 module.exports = {
 	content: [
-		"./assets/css/src/main.css",
+		"./assets/scss/main.scss",
 		"./**/*.php"
 	],
 	theme: {
 		extend: {
-			fontFamily: {
-				'montserrat': ['Montserrat', 'sans-serif']
-			},
-			colors: {
-				'blue-light': '#4b6fb5',
-				'blue-dark': '#1c335d',
-			},
 			zIndex: {
 				'1': '1',
 				'2': '2',

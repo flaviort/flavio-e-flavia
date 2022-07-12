@@ -1,0 +1,23 @@
+/* variables */
+@import 'atoms/variables';
+
+/* layout details */
+@import 'atoms/base';
+@import 'atoms/containers';
+@import 'atoms/texts';
+@import 'atoms/buttons';
+@import 'atoms/inputs';
+@import 'atoms/animations';
+@import 'atoms/scroll';
+@import 'atoms/breakpoints';
+
+/* sections */
+@import 'sections/fixed-menu';
+@import 'sections/footer';
+
+/* pages */
+@import 'pages/home';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
