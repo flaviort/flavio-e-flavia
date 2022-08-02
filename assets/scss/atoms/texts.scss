@@ -27,26 +27,26 @@
 
 .title-big {
 	font-size: 40px;
-	line-height: 1.6;
+	line-height: 1.2;
 
 	@media #{$mq-sm-min} {
 		font-size: 44px;
 	}
 
 	@media #{$mq-md-min} {
-		font-size: 48px;
+		font-size: 50px;
 	}
 
 	@media #{$mq-lg-min} {
-		font-size: 52px;
-	}
-
-	@media #{$mq-xl-min} {
 		font-size: 56px;
 	}
 
-	@media #{$mq-2xl-min} {
+	@media #{$mq-xl-min} {
 		font-size: 60px;
+	}
+
+	@media #{$mq-2xl-min} {
+		font-size: 66px;
 	}
 }
 
@@ -159,4 +159,8 @@
 		font-size: inherit;
 		color: inherit;
 	}
+}
+
+.sub {
+	@apply relative block pb-6 xl:pb-8 mb-8 xl:mb-10 uppercase before:absolute before:bottom-0 before:left-0 before:w-8 before:h-[3px] xl:before:h-1 before:bg-gray-300 text-slate-700;
 }

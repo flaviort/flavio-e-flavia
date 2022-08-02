@@ -1,0 +1,1 @@
+<svg viewBox="0 0 10 77" width="100%" height="100%"><polygon fill="currentColor" points="8.5,71.3 5.5,74.3 5.5,0 4.5,0 4.5,74.3 1.5,71.3 0.8,72 4.3,75.5 5,76.2 5.7,75.5 9.2,72"></polygon></svg>

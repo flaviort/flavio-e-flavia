@@ -16,7 +16,11 @@ module.exports = {
 				'7': '7',
 				'8': '8',
 				'9': '9',
-			  }
+			},
+			colors: {
+				'mauve': '#861b5e',
+				'mauve-dark': '#640641',
+			},
 		}
 	},
 	variants: {
