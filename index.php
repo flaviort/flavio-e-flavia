@@ -12,9 +12,9 @@
 			<?php include('includes/fixed-menu.php'); ?>
 
 			<!-- banner -->
-			<section id="banner" class="relative w-full h-screen overflow-hidden md:px-20 xl:px-32">
+			<section id="banner" class="relative w-full min-h-[600px] h-screen overflow-hidden md:px-20 xl:px-32">
 
-				<img src="assets/img/bg-01.jpg" alt="Mountains" class="absolute right-0 z-0 -translate-y-1/2 top-[62%] sm:top-1/2 max-w-full md:max-w-[85%] opacity-60 rellax" data-rellax-percentage="0" data-rellax-speed="4" />
+				<img src="assets/img/bg-01.jpg" alt="Mountains" class="absolute -right-[110%] sm:right-0 z-0 -translate-y-1/2 top-1/2 max-w-[250%] sm:max-w-full md:max-w-[85%] opacity-60 rellax" data-rellax-percentage="0" data-rellax-speed="4" />
 
 				<div class="relative flex items-center justify-center h-full container-wrapper z-2">
 
@@ -28,11 +28,15 @@
 	
 					</a>
 
-					<a href="./" class="max-h-[80%] max-w-[60%] sm:max-h-[50%] block -translate-y-5">
+					<a href="./" class="max-h-full max-w-[60%] sm:max-h-[50%] block -translate-y-5">
 						<?php include('assets/svg/logo-complete.php'); ?>
 					</a>
 
 				</div>
+
+				<a href="#infos" class="absolute inline-block uppercase transition-colors duration-300 z-9 text-small sliding-link bottom-5 right-5 hover:text-mauve scroll-down">
+					Role a página
+				</a>
 
 			</section>
 
@@ -179,7 +183,7 @@
 
 					<div class="relative pl-20 pt-14 md:pt-24 sm:pt-0 sm:pl-48 md:pl-52 lg:pl-60 2xl:pl-64">
 
-						<div class="absolute top-0 left-0 z-0 w-auto h-[75%] md:h-[85%] sm:h-full text-slate-300">
+						<div class="absolute top-0 left-0 z-0 w-auto h-[75%] md:h-[85%] sm:h-full text-slate-400 opacity-60">
 							<?php include('assets/svg/17h00.php') ?>
 						</div>
 
@@ -197,7 +201,7 @@
 							</h1>
 
 							<p class="block my-5 md:my-10 text-medium">
-								Rua Bom Jesus, 159 - Juvevê <br />
+								R. Bom Jesus, 159 - Juvevê <br />
 								Curitiba - PR
 							</p>
 
@@ -221,7 +225,7 @@
 
 					<div class="relative inline-block float-right pl-20 pt-14 md:pt-24 w-fit sm:pt-0 sm:pl-48 md:pl-52 lg:pl-60 2xl:pl-64">
 
-						<div class="absolute top-0 left-0 z-0 w-auto h-[75%] md:h-[85%] sm:h-full text-slate-300">
+						<div class="absolute top-0 left-0 z-0 w-auto h-[75%] md:h-[85%] sm:h-full text-slate-400 opacity-60">
 							<?php include('assets/svg/19h00.php') ?>
 						</div>
 
@@ -232,13 +236,13 @@
 							</p>
 
 							<h1 class="title-big text-mauve">
-								Bom <br />
+								Dom <br />
 								Parma <br />
 								Trattoria
 							</h1>
 
 							<p class="block my-5 md:my-10 text-medium">
-								Rua Comendador Araújo, 598 - Batel <br />
+								R. Comendador Araújo, 598 - Batel <br />
 								Curitiba - PR
 							</p>
 

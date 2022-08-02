@@ -8,7 +8,7 @@
 
 	<meta name="author" content="Flávio R. T.">
 
-	<title>ƒ&ƒ - Ƒlávio & Ƒlavia</title>
+	<title>ƑƑ - Flávio & Flavia - 01/10/2022</title>
 
 	<!-- google -->
 	<meta name="description" content="Flávio & Flavia - 01 de Outubro / 2022"/>

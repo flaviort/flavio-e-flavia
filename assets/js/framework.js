@@ -32,10 +32,8 @@ $(".sliding-link").click(function(e) {
 // hide items ons scroll
 $(document).on('scroll', function() {
 	if ($(this).scrollTop() > 50) {
-		$('#fixed-menu .scroll-down').fadeOut(900);
 		$('#banner .scroll-down').fadeOut(900);
 	} else {
-		$('#fixed-menu .scroll-down').fadeIn(300);
 		$('#banner .scroll-down').fadeIn(300);
 	}
 });

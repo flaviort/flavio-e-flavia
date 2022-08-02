@@ -4,7 +4,7 @@
         <?php include('assets/svg/logo-ff.php') ?>
     </a>
 
-    <nav class="fixed hidden uppercase -translate-y-1/2 side-menu left-5 top-1/2 z-9 text-small text-gray md:inline-block">
+    <nav id="side-menu" class="fixed hidden uppercase -translate-y-1/2 side-menu left-5 top-1/2 z-9 text-small text-gray md:inline-block">
         <ul>
 
             <li>
@@ -31,23 +31,19 @@
     <p class="absolute inline-block uppercase z-9 text-small right-5 top-5">
 
         <a href="#" class="font-bold text-mauve hvr-underline-from-left before:h-[1px] before:bg-mauve inline-block align-middle mr-2">
-            BR
+            PT
         </a>
 
-        <a href="index-en.php" class="hvr-underline-from-left before:h-[1px] before:bg-slate-500 inline-block align-middle">
+        <a href="./en" class="hvr-underline-from-left before:h-[1px] before:bg-slate-500 inline-block align-middle">
             EN
         </a>
 
     </p>
 
-    <p class="fixed hidden leading-normal text-center md:inline-block z-9 date text-small bottom-5 left-5 text-mauve">
+    <p class="fixed hidden leading-normal text-center md:inline-block z-9 date text-small bottom-5 left-6 text-mauve">
         01<br />
         /<br />
         10
     </p>
-
-    <a href="#infos" class="absolute inline-block uppercase transition-colors duration-300 z-9 text-small sliding-link bottom-5 right-5 hover:text-mauve scroll-down">
-        Role a página
-    </a>
 
 </section>
