@@ -162,5 +162,21 @@
 }
 
 .sub {
-	@apply relative block pb-6 xl:pb-8 mb-8 xl:mb-10 uppercase before:absolute before:bottom-0 before:left-0 before:w-8 before:h-[3px] xl:before:h-1 before:bg-gray-300 text-slate-700;
+	@apply
+		relative
+		block
+		uppercase
+		text-slate-700
+		pb-6
+		xl:pb-8
+		mb-8
+		xl:mb-10
+		before:absolute
+		before:bottom-0
+		before:left-0
+		before:w-8
+		before:h-[3px]
+		xl:before:h-1
+		before:bg-gray-300
+	;
 }

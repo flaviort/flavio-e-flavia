@@ -1,0 +1,28 @@
+.form-line {
+
+    &.error {
+        input {
+            border-color: $red;
+            color: $red;
+        }
+    }
+
+    input {
+        &:-webkit-autofill {
+            -webkit-text-fill-color: rgb(100 116 139) !important;
+        }
+    }
+
+    label.error {
+        position: absolute;
+        z-index: 3;
+        bottom: -8px;
+        display: inline-block;
+        right: 20px;
+        font-size: 14px;
+        line-height: 1;
+        color: $red;
+        background-color: #ecebea;
+        padding: 3px 5px;
+    }
+}

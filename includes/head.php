@@ -18,7 +18,7 @@
 	<meta property="og:locale" content="en-US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Flávio & Flavia - 01 de Outubro / 2022" />
-	<meta property="og:description" content="01 de Outubro de 2022 | Casamento de Flávio e Flavia" />
+	<meta property="og:description" content="01 de Outubro de 2022 | Flávio e Flavia" />
 	<meta property="og:url" content="https://flavioeflavia.com.br/" />
 	<meta property="og:site_name" content="Flávio & Flavia - 01 de Outubro / 2022" />
 	<meta property="og:image" content="https://flavioeflavia.com.br/assets/img/og-image.jpg" />
@@ -29,5 +29,15 @@
 	<!-- css -->
 	<link rel="stylesheet" href="assets/css/framework.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBMVGE5DDJ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-GBMVGE5DDJ');
+	</script>
 	
 </head>

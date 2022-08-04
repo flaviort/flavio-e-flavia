@@ -14,7 +14,7 @@
 			<!-- banner -->
 			<section id="banner" class="relative w-full min-h-[600px] h-screen overflow-hidden md:px-20 xl:px-32">
 
-				<img src="assets/img/bg-01.jpg" alt="Mountains" class="absolute -right-[110%] sm:right-0 z-0 -translate-y-1/2 top-1/2 max-w-[250%] sm:max-w-full md:max-w-[85%] opacity-60 rellax" data-rellax-percentage="0" data-rellax-speed="4" />
+				<img src="assets/img/bg-01.jpg" alt="Mountains" class="absolute -right-[110%] sm:right-0 z-0 -translate-y-1/2 top-1/2 max-w-[250%] sm:max-w-full md:max-w-[85%] opacity-70 rellax" data-rellax-percentage="0" data-rellax-speed="4" />
 
 				<div class="relative flex items-center justify-center h-full container-wrapper z-2">
 
@@ -177,11 +177,11 @@
 			<!-- the ceremony -->
 			<section id="the-ceremony" class="relative w-full pt-20 md:pl-20 xl:px-32 sm:pt-28 md:pt-52">
 
-				<img src="assets/img/bg-02.jpg" alt="City" class="hidden md:block absolute bottom-0 right-0 z-0 w-auto h-[120%] max-w-[60%] opacity-50 lg:opacity-80 rellax object-contain" data-rellax-percentage="1.5" data-rellax-speed="2" />
+				<img src="assets/img/bg-02.jpg" alt="Cidade do Senhor dos Anéis" class="hidden md:block absolute top-0 left-0 z-0 w-auto h-full max-w-[65%] lg:max-w-[70%] opacity-80 lg:opacity-100 rellax object-contain" data-rellax-percentage="1.8" data-rellax-speed=".5" />
 
 				<div class="relative container-wrapper z-2">
 
-					<div class="relative pl-20 pt-14 md:pt-24 sm:pt-0 sm:pl-48 md:pl-52 lg:pl-60 2xl:pl-64">
+					<div class="relative inline-block pl-20 md:float-right pt-14 md:pt-24 sm:pt-0 sm:pl-48 md:pr-20 2xl:pr-32">
 
 						<div class="absolute top-0 left-0 z-0 w-auto h-[75%] md:h-[85%] sm:h-full text-slate-400 opacity-60">
 							<?php include('assets/svg/17h00.php') ?>
@@ -213,17 +213,19 @@
 
 					</div>
 
+					<div class="cf"></div>
+
 				</div>
 			</section>
 
 			<!-- the party -->
 			<section id="the-party" class="relative w-full pt-20 md:pl-20 xl:px-32 sm:pt-28 md:pt-52 lg:pt-72 xl:pt-96">
 
-				<img src="assets/img/bg-03.jpg" alt="Mountains" class="hidden md:block absolute top-0 left-0 z-0 w-auto h-full max-w-[45%] lg:max-w-[55%] opacity-50 lg:opacity-80 rellax object-contain" data-rellax-percentage="1.8" data-rellax-speed="2" />
+				<img src="assets/img/bg-03.jpg" alt="Casa do Hobbit" class="hidden md:block absolute bottom-0 right-0 z-0 w-auto h-[120%] max-w-[60%] opacity-80 lg:opacity-100 rellax object-contain" data-rellax-percentage="1.5" data-rellax-speed="2" />
 
 				<div class="relative container-wrapper z-2">
 
-					<div class="relative inline-block float-right pl-20 pt-14 md:pt-24 w-fit sm:pt-0 sm:pl-48 md:pl-52 lg:pl-60 2xl:pl-64">
+					<div class="relative pl-20 pt-14 md:pt-24 sm:pt-0 sm:pl-48 md:pl-52 lg:pl-60 2xl:pl-64">
 
 						<div class="absolute top-0 left-0 z-0 w-auto h-[75%] md:h-[85%] sm:h-full text-slate-400 opacity-60">
 							<?php include('assets/svg/19h00.php') ?>
@@ -254,21 +256,126 @@
 
 					</div>
 
-					<div class="cf"></div>
-
 				</div>
 			</section>
 
 			<!-- registry -->
-			<section id="registry" class="relative w-full pt-20 md:pl-20 xl:px-32 sm:pt-28 md:pt-52 lg:pt-72 xl:pt-96">
-				<div class="container-wrapper">
+			<section id="registry" class="relative w-full pt-20 overflow-hidden md:pl-20 xl:px-32 sm:pt-28 md:pt-52 lg:pt-72 xl:pt-96">
+
+				<img src="assets/img/bg-04.jpg" alt="Cabana do Hagrid" class="absolute -bottom-20 md:bottom-0 left-0 z-0 w-auto max-w-[140%] md:max-w-[65%] opacity-80" />
+
+				<div class="relative container-wrapper z-2">
+					<div class="pb-[80vw] pl-20 md:float-right 2xl:pr-52 md:pb-32 lg:pb-44 xl:pb-52">
+
+						<p class="text-medium sub">
+							Presentes
+						</p>
+
+						<h1 class="title-big text-mauve">
+							Lista de <br />
+							Casamento
+						</h1>
+
+						<p class="block my-5 md:my-10 text-medium md:max-w-md">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam culpa dolorum quibusdam.
+						</p>
+
+						<a href="https://sites.icasei.com.br/flavioeflavia2022/" target="_blank" class="font-bold uppercase text-medium text-mauve hvr-underline-from-left before:h-[1px] before:bg-mauve">
+							Acesse o site
+						</a>
+
+					</div>
+
+					<div class="cf"></div>
 					
 				</div>
 			</section>
 
 			<!-- rsvp -->
-			<section id="rsvp" class="relative w-full md:pl-20 xl:px-32">
-				
+			<section id="rsvp" class="relative w-full md:pl-20 xl:px-32 bg-[#ecebea] py-16 sm:py-20 md:py-28 lg:py-32">
+
+				<img src="assets/img/bg-05.jpg" alt="Witcher" class="hidden md:block absolute -right-10 lg:right-0 z-0 -translate-y-1/2 top-1/2 max-w-[75%] lg:max-w-[55%] opacity-60 lg:opacity-100 rellax" data-rellax-percentage="-1.1" data-rellax-speed="2" />
+
+				<div class="relative container-wrapper z-2">
+					<div class="md:max-w-[50%] lg:max-w-[40%]">
+
+						<p class="text-medium sub">
+							RSVP
+						</p>
+
+						<h1 class="title-big text-mauve">
+							Confirme sua <br />
+							Presença
+						</h1>
+
+						<form id="contact-form" method="get" action="" class="mt-10 sm:mt-12">
+							
+							<div class="relative mb-5 sm:mb-8 md:mb-10 form-line">
+								
+								<label for="name" class="text-small absolute z-2 -top-3 left-2 sm:left-5 inline-block leading-none py-1 px-2 sm:px-4 bg-[#eeece9]">
+									Nome
+								</label>
+
+								<input type="text" id="name" name="Nome" class="relative block w-full px-4 py-5 bg-transparent border rounded-md shadow-none sm:px-8 text-medium z-1 border-slate-400" required placeholder="Digite aqui">
+
+							</div>
+
+							<div class="relative flex items-center justify-between mb-8 md:mb-10 form-line">
+
+								<label for="size" class="block mr-5 text-medium">
+									Vai de salto? Qual número você calça?
+								</label>
+
+								<div class="relative block px-4 border rounded-md w-28 sm:w-40 border-slate-400">
+
+									<select name="Número de calçado" id="size" class="px-0 py-5 bg-transparent border-none shadow-none text-medium appearance-none cursor-pointer indent-[1px] w-full block" style="text-overflow: '';">
+										<option value="Não" selected>Não</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+										<option value="24">24</option>
+										<option value="25">25</option>
+										<option value="26">26</option>
+										<option value="27">27</option>
+										<option value="28">28</option>
+										<option value="29">29</option>
+										<option value="30">30</option>
+										<option value="31">31</option>
+										<option value="32">32</option>
+										<option value="33">33</option>
+										<option value="34">34</option>
+										<option value="35">35</option>
+										<option value="36">36</option>
+										<option value="37">37</option>
+										<option value="38">38</option>
+										<option value="39">39</option>
+										<option value="40">40</option>
+										<option value="41">41</option>
+										<option value="42">42</option>
+										<option value="43">43</option>
+										<option value="44">44</option>
+										<option value="45">45</option>
+										<option value="46">46</option>
+									</select>
+
+									<div class="absolute flex w-5 h-5 -translate-y-1/2 pointer-events-none top-1/2 right-3 z-2">
+										<?php include('assets/svg/arrow-down-small.php') ?>
+									</div>
+
+								</div>
+
+							</div>
+
+							<button type="submit" name="Confirmar" class="text-medium text-mauve uppercase cursor-pointer hvr-underline-from-left before:h-[1px] before:bg-mauve float-right">
+								Confirmar
+							</button>
+
+							<div class="cf"></div>
+
+						</form>
+
+					</div>
+				</div>
+
 			</section>
 
 			<!-- footer -->
