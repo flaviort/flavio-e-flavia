@@ -10,7 +10,7 @@
             <strong>Aguardamos você dia 01 de Outubro!</strong>
         </p>
 
-        <button class="text-medium hvr-underline-from-left text-mauve font-bold uppercase before:h-[1px] before:bg-mauve">
+        <button class="text-medium hvr-underline-from-left text-mauve font-bold uppercase before:h-[1px] before:bg-mauve" onclick="$.fancybox.close()">
             Fechar
         </button>
 

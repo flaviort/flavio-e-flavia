@@ -310,12 +310,10 @@
 							joining us?
 						</h1>
 
-						<form id="contact-form" action="https://formsubmit.co/flavioczuk@gmail.com" method="post" class="mt-10 sm:mt-12">
+						<form id="contact-form" action="https://formsubmit.io/send/1ad067f6-53c8-41d0-b59e-e48d5ddffd86" method="post" class="mt-10 sm:mt-12">
 
-							<input type="hidden" name="_captcha" value="false">
-							<input type="hidden" name="_next" value="https://flavioeflavia.com.br/#form-success">
-							<input type="hidden" name="_subject" value="Casamento RSVP">
-							<input type="hidden" name="_template" value="box">
+							<input type="hidden" name="_redirect" value="https://flavioeflavia.com.br/en/#form-success">
+							<input name="_formsubmit_id" type="text" style="display:none">
 							
 							<div class="relative mb-5 sm:mb-8 md:mb-10 form-line">
 								
@@ -335,7 +333,7 @@
 
 								<div class="relative block px-4 border rounded-md w-28 sm:w-40 border-slate-400">
 
-									<select name="Número de calçado" id="size" class="px-0 py-5 bg-transparent border-none shadow-none text-medium appearance-none cursor-pointer indent-[1px] w-full block" style="text-overflow: '';">
+									<select name="Calçado" id="size" class="px-0 py-5 bg-transparent border-none shadow-none text-medium appearance-none cursor-pointer indent-[1px] w-full block" style="text-overflow: '';">
 										<option value="Não" selected>No</option>
 										<option value="22">22</option>
 										<option value="23">23</option>

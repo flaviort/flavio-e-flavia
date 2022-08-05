@@ -6,11 +6,11 @@
         </h2>
 
         <p class="block my-6 md:my-10 text-medium">
-            We received you data and your presence is already confirmed! <br class="hidden sm:block" />
+            Your details has been received and your presence is now confirmed! <br class="hidden sm:block" />
             <strong>We're waiting for you on October 1st!</strong>
         </p>
 
-        <button class="text-medium hvr-underline-from-left text-mauve font-bold uppercase before:h-[1px] before:bg-mauve">
+        <button class="text-medium hvr-underline-from-left text-mauve font-bold uppercase before:h-[1px] before:bg-mauve" onclick="$.fancybox.close()">
             Close
         </button>
 
