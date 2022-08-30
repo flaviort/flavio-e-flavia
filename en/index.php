@@ -310,10 +310,13 @@
 							joining us?
 						</h1>
 
-						<form id="contact-form" action="https://formsubmit.io/send/1ad067f6-53c8-41d0-b59e-e48d5ddffd86" method="post" class="mt-10 sm:mt-12">
+						<form id="contact-form" action="https://formsubmit.co/f04b3085abd50de30e945bf7a1ca7e81" method="POST" class="mt-10 sm:mt-12">
 
-							<input type="hidden" name="_redirect" value="https://flavioeflavia.com.br/en/#form-success">
-							<input name="_formsubmit_id" type="text" style="display:none">
+							<input type="hidden" name="_next" value="https://flavioeflavia.com.br/#form-success">
+							<input type="text" name="_honey" style="display:none">
+							<input type="hidden" name="_captcha" value="false">
+							<input type="hidden" name="_template" value="box">
+							<input type="hidden" name="_subject" value="Confirmação de presença">
 							
 							<div class="relative mb-5 sm:mb-8 md:mb-10 form-line">
 								
