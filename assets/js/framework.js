@@ -110,3 +110,11 @@ $(document).ready(function() {
 		$.fancybox.open($("#form-success"));
 	};
 });
+
+function closePopup() {
+	$('#live').slideUp();
+};
+
+setTimeout(function(){ 
+	$('#live').slideDown('slow');
+}, 2000);
